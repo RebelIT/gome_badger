@@ -7,7 +7,7 @@ import (
 
 func main() {
 	//Initialize a new database
-	d, err := db.New("/tmp/database")
+	d, err := db.Open("/tmp/database")
 	if err != nil {
 		fmt.Println("I didn't create a new DB")
 	}
