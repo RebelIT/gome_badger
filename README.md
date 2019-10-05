@@ -2,7 +2,7 @@
 BadgerDB wrapper to simplify the usage
 
 # usage examples:
-`go get github.com/opengome/gome_badgerdb`
+`go get github.com/rebelit/gome_badger`
 
 basic usage:
 ```
